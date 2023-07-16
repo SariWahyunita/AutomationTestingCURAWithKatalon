@@ -21,6 +21,8 @@ WebUI.verifyElementText(findTestObject('Page_Make Appointment/h2_Make Appointmen
 
 WebUI.takeScreenshot()
 
+WebUI.getNumberOfSelectedOption(findTestObject('Page_Make Appointment/select_facility'))
+
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Make Appointment/select_facility'), 'Hongkong CURA Healthcare Center', 
     true)
 
