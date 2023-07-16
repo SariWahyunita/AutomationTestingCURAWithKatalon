@@ -20,7 +20,7 @@ import org.openqa.selenium.Rectangle as Rectangle
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/profile.php#login')
+WebUI.navigateToUrl(GlobalVariable.G_SiteURL)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Login/h2_Login'), 'Login')
 
